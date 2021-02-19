@@ -1,0 +1,23 @@
+class Solution
+{
+    public boolean isPalindrome(int x) 
+    {
+        int rev = 0, original = x;
+        
+        if(x<0)
+            return false;
+        
+        while(x!=0)
+        {
+            int temp = x%10;
+            x /= 10;
+            
+            rev = temp+rev*10;
+        }
+        
+        if(rev == original)
+            return true;
+        else
+            return false;
+    }
+}
