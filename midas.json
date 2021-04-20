@@ -1,0 +1,16 @@
+{
+  "array": [
+    1,
+    2,
+    3
+  ],
+  "sarasari_bus": "21",
+  "color": "gold",
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d"
+  },
+  "string": "Hello World"
+}
